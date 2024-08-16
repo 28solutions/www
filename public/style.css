@@ -1,0 +1,26 @@
+h1 {
+	font-size: 175%;
+	margin-bottom: 1em;
+}
+
+#content {
+	padding: 0em 1em;
+}
+
+dt.far {
+	font-size: 3em;
+}
+
+dt.far:not(:first-child) {
+	margin-top: 0.7em;
+}
+
+dd {
+	font-size: x-large;
+	margin-top: 0.5em;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
