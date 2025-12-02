@@ -1,3 +1,10 @@
+FROM alpine:latest AS build
+
+RUN apk add --update hugo
+WORKDIR /app
+COPY . .
+RUN hugo
+
 FROM nginxinc/nginx-unprivileged:alpine
 
-COPY public /usr/share/nginx/html
+COPY --from=build /app/public /usr/share/nginx/html
