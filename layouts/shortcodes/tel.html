@@ -1,0 +1,3 @@
+{{- $number := .Get "number" -}}
+{{- $text := .Inner | default $number -}}
+<a href="tel:{{ $number }}">{{ $text | markdownify }}</a>

@@ -14,7 +14,7 @@ Twenty Eight Solutions SRL is an independent IT consulting firm based in Belgium
 | | |
 | --- | --- |
 | Email | [info@twentyeight.solutions](mailto:info@twentyeight.solutions) |
-| Phone | [+32 497 67 75 32](tel:+32497677532) |
+| Phone | {{< tel number="+32497677532" >}}+32 497 67 75 32{{< /tel >}} |
 
 ## Address
 
