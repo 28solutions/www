@@ -1,6 +1,5 @@
-FROM alpine:latest AS build
+FROM ghcr.io/gohugoio/hugo:latest AS build
 
-RUN apk add --update hugo
 WORKDIR /app
 COPY . .
 RUN hugo
